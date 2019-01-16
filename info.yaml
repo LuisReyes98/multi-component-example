@@ -1,0 +1,4 @@
+name: multi-component-example
+parents:
+  - component-holder
+  - component-sitter

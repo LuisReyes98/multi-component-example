@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %} <!-- This works  -->
+
+{# extends "component-holder.html" #} <!-- This works -->
+
+{% block content %}  
+  {{ super() }}
+  
+  {% include "component-holder.html" %} <!-- this DOES NOT work  -->
+
+{% endblock content %}
